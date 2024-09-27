@@ -47,6 +47,6 @@ app.use(express.json());
 //     res.send("Hello world")
 // })
 app.listen(PORT,() => {
-    console.log(`Backend listening on Port ${PORT}!`);
+    console.log(`Backend listening on Port ${PORT}`);
 })
 
